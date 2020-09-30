@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/tablet.css" media="(min-width: 710px)">
+  <link rel="stylesheet" href="css/desktop.css" media="(min-width: 1440px)">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Clipboard landing page</title>
@@ -14,8 +16,9 @@
 
   <main>
       <section>
-          <div id="bk-image-header">
-             <img src="images/bg-header-mobile.png" alt="Background Image">
+          <div id="bk-image-header" >
+             <img src="images/bg-header-mobile.png" alt="Background Image" >
+             
           </div>
 
           <div id="logo-header">
@@ -60,7 +63,7 @@
     </div>
 
     <div class="icould-s">
-      <h3>iCloud Sync</h3>
+      <h3 class="icould">iCloud Sync</h3>
       <p>Instantly saves and syncs snippets across all your devices.</p>
     </div>
 
@@ -85,12 +88,12 @@
 
     </div>
 
-    <div>
+    <div >
       <h3>Supercharge your workflow</h3>
         <p class="clip-descr1">We’ve got the tools to boost your productivity.</p>
     </div>
 
-    <div>
+    <div class="list-items">
       <img src="images/icon-blacklist.svg" alt="Icon List">
       <h3>Create blacklist</h3>
         <p class="clip-descr2">  Ensure sensitive information never makes 
@@ -98,7 +101,7 @@
        
       </div>
 
-    <div>
+    <div class="list-items">
       <img src="images/icon-text.svg" alt="Text image">
       <h3>Plain text snippets</h3>
       <p class="clip-descr3">  Remove unwanted formatting from copied text 
@@ -108,7 +111,7 @@
     </div>
 
 
-    <div>
+    <div class="list-items">
       <img src="images/icon-preview.svg" alt="">
         <h3> Sneak preview</h3>
         <p class="clip-descr4">  Quick preview of all snippets on your Clipboard

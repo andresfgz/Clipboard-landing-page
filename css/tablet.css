@@ -1,0 +1,83 @@
+#bk-image-header  img {
+    background-repeat: no-repeat;
+    
+    width: 100vw;
+   
+}
+
+
+
+
+
+.title-header {
+    font-size: 2rem;
+} 
+
+.des-header {
+    font-size: 1.8rem;
+}
+
+.btns-header{
+    display: flow-root;
+    padding-left: 2rem;
+}
+
+.btn-ios-header {
+    display: inline-block;
+}
+
+.btn-mac-header {
+    display: inline-block;
+}
+
+.keep-track h2 {
+    font-size: 2.5rem;
+}
+
+.keep-track p {
+    font-size: 1.8rem;
+}
+
+.monitor-desc h3 {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.monitor-desc p {
+    font-size: 1.8rem;
+}
+
+.clipboard h3 {
+    font-size: 2.6rem;
+}
+
+.clip-descr1 {
+    font-size: 1.9rem;
+}
+
+.clip-img img {
+    width: 89%;
+    max-width: 700px;
+    margin-bottom: 11rem;
+}
+
+.clip-text strong {
+    font: 2.6rem;
+}
+
+.clip-text p {
+    font-size: 1.9rem;
+    margin-bottom: 0rem;
+}
+
+
+.btns-final {
+    display: flow-root;
+    margin-bottom: 3rem;
+}
+
+.clip-descr4 {
+    margin-bottom: 11rem;
+    
+}
