@@ -62,7 +62,7 @@
 .icould-s{
     display: table;
     position: inherit;
-    margin-left: 43%;
+    margin-left: 40%;
 }
 
 .icould-s p {
@@ -79,16 +79,16 @@
 .compl-history {
     display: table;
     position: inherit;
-    margin-left: 49%;
+    margin-left: 48%;
 }
 
 .compl-history h3{
-    margin-left: -13rem;
+    margin-left: -12rem;
 }
 
 .compl-history p {
     display: flex;
-    margin-left: 24rem;
+    margin-left: 23rem;
     text-align: left;
     width: 51%;
 }
